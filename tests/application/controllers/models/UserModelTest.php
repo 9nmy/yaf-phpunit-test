@@ -12,12 +12,12 @@ class UserModelTest extends \Test\PHPUnit\ModelTestCase {
 
 
     public function testGetUserName() {
-		$userId = 1;
-		$result = self::$_model->getUserName($userId);
-		$this->assertEquals('iceup', $result);
+        $userId = 1;
+        $result = self::$_model->getUserName($userId);
+        $this->assertEquals('iceup', $result);
 
-		$userId = 100;
-		$result = self::$_model->getUserName($userId);
-		$this->assertFalse($result);
+        $userId = 100;
+        $result = self::$_model->getUserName($userId);
+        $this->assertFalse($result);
     }
 }
