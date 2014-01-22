@@ -1,6 +1,6 @@
 <?php
 
-class IndexController extends \Our\Controller_Abstract {
+class IndexController extends \Yaf\Controller_Abstract {
 
     public function init() {
         \Yaf\Dispatcher::getInstance()->disableView();
