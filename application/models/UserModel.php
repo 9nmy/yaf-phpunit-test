@@ -3,7 +3,7 @@
 class UserModel {
 
     /**
-     * ¸ù¾İÓÃ»§±àºÅ»ñÈ¡ÓÃ»§Ãû
+     * æ ¹æ®ç”¨æˆ·ç¼–å·è·å–ç”¨æˆ·å
      * 
      * @param int $userId
      * @return string
