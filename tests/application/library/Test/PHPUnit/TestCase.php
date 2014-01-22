@@ -5,7 +5,7 @@ namespace Test\PHPUnit;
 class TestCase extends \PHPUnit_Framework_TestCase {
 
     /**
-     * …Ë÷√application
+     * ËÆæÁΩÆapplication
      */
     public function setApplication() {
         $application = new \Yaf\Application(APPLICATION_PATH . "/conf/application.ini");
@@ -14,7 +14,7 @@ class TestCase extends \PHPUnit_Framework_TestCase {
     }
 
     /**
-     * ªÒ»°application
+     * Ëé∑Âèñapplication
      * 
      * @return \Yaf\Application
      */
