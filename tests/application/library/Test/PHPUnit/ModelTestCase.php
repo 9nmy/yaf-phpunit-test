@@ -6,8 +6,4 @@ require_once APPLICATION_PATH . '/tests/application/library/Test/PHPUnit/TestCas
 
 class ModelTestCase extends \Test\PHPUnit\TestCase {
     
-    public function getModelObject($className){
-        require_once APPLICATION_PATH . '/application/models/'.$className.'.php';
-        return new $className();
-    }
 }

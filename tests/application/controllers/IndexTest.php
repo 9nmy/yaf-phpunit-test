@@ -9,6 +9,8 @@ class IndexTest extends \Test\PHPUnit\ControllerTestCase {
         $response = $this->getApplication()->getDispatcher()
                 ->returnResponse(true)
                 ->dispatch($request);
-        $this->assertEquals('index phtml', $response->getBody());
+        $content = $response->getBody();
+        $this->assertEquals('index phtml', $content);
     }
+
 }
