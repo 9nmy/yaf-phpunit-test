@@ -2,6 +2,9 @@
 
 namespace Test\PHPUnit;
 
+/**
+ * 测试基类
+ */
 class TestCase extends \PHPUnit_Framework_TestCase {
 
     /**
